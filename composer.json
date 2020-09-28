@@ -1,0 +1,23 @@
+{
+    "name": "silangtech/validator",
+    "description" : "验证器",
+    "type": "application",
+    "keywords": ["SilangPHP","validator","php framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shengsheng",
+            "email": "9448923@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "_comment": "SilangPHP/Validator",
+    "autoload": {
+        "psr-4": {
+            "SilangPHP\\Validator\\": "src/",
+            "test\\": "test/"
+        }
+    }
+}
