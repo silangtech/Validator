@@ -3,7 +3,7 @@
 
 ```$xslt
 
-$validator = \SilangPHP\Rpc\Validator::make();
+$validator = \SilangPHP\Validator\Validator::make();
 
 $validator->scene(['add' => 'data,data2', 'edit' => 'id,data,data2']); // 设置多个场景
 
